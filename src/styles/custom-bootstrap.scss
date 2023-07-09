@@ -4,7 +4,7 @@
 @import '~bootstrap/scss/variables-dark';
 @import '~bootstrap/scss/maps';
 @import '~bootstrap/scss/mixins';
-// @import '../assets/icon-list.svg';
+
 
 
 
@@ -139,9 +139,7 @@ h2 {
 	// width: 300px !important;
 	height: 200px;
 }
-li{
-	list-style-image: url('../assets/icon-list.svg');
-}
+
 
 /* .list-group-item span {
   display: inline-block;

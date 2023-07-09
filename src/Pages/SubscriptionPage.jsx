@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 
 import ListItem from '../Components/ListItem';
 import Form from '../Components/Form';
+import svgMobile from '../assets/illustration-sign-up-mobile.svg';
+import svgDesktop from '../assets/illustration-sign-up-desktop.svg';
 
 export default function SubscriptionPage() {
 	const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
@@ -41,11 +43,7 @@ export default function SubscriptionPage() {
 					</div>
 					<div className='image-container  order-1 order-md-2 '>
 						<img
-							src={
-								viewportWidth < 768
-									? '../images/illustration-sign-up-mobile.svg'
-									: '../images/illustration-sign-up-desktop.svg'
-							}
+							src={viewportWidth < 768 ? svgMobile  :  svgDesktop }
 							alt='notification'
 							// className='img-fluid'
 						/>

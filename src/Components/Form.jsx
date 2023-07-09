@@ -28,12 +28,11 @@ export default function Form() {
 	};
 
 	useEffect(() => {
-		console.log('does this fire useEffect');
 		if (isInitialMount.current) {
 			isInitialMount.current = false;
 		} else {
 			if (isValid && isBtnClicked) {
-				navigate(`/success`, { state: { value: inputValue } });
+				navigate(`/frontend-email-notification-react/success`, { state: { value: inputValue } });
 			}
 		}
 	}, [inputValue, isBtnClicked, isValid, navigate]);

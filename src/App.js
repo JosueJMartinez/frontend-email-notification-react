@@ -9,8 +9,11 @@ function App() {
 	return (
 		<BrowserRouter basename='/'>
 			<Routes>
-				<Route path='/' element={<SubscriptionPage />} />
-				<Route path='/success' element={<SuccessfulNotificationPage />} />
+				<Route path='/frontend-email-notification-react' element={<SubscriptionPage />} />
+				<Route
+					path='/frontend-email-notification-react/success'
+					element={<SuccessfulNotificationPage />}
+				/>
 				<Route path='*' element={<Navigate to='/' />} />
 			</Routes>
 		</BrowserRouter>

@@ -43,8 +43,8 @@ export default function SubscriptionPage() {
 						<img
 							src={
 								viewportWidth < 768
-									? './images/illustration-sign-up-mobile.svg'
-									: './images/illustration-sign-up-desktop.svg'
+									? '../images/illustration-sign-up-mobile.svg'
+									: '../images/illustration-sign-up-desktop.svg'
 							}
 							alt='notification'
 							// className='img-fluid'

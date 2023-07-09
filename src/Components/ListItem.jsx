@@ -4,7 +4,7 @@
 function ListItem({ text }) {
 	return (
 		<li className='list-group-item bg-white border-0 ps-0 py-1 d-flex align-items-start'>
-			<img src='/images/icon-list.svg' alt='Icon' className='svg-icon' />
+			<img src='../images/icon-list.svg' alt='Icon' className='svg-icon' />
 			<span className=' text-primary ps-3'>{text}</span>
 		</li>
 	);

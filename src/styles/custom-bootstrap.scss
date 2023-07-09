@@ -150,11 +150,12 @@ h2 {
 	padding-right: 0;
 }
 
-a{
+.email-confirmation {
 	color:hsl(234, 29%, 20%);
 	font-weight: 700;
 	text-decoration: none;
 }
+
 @media (min-width: 376px){
 	.sm-rounded-5{
 		border-radius: 32px;

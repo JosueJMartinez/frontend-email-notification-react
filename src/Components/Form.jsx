@@ -32,7 +32,7 @@ export default function Form() {
 			isInitialMount.current = false;
 		} else {
 			if (isValid && isBtnClicked) {
-				navigate(`/success`, { state: { value: inputValue } });
+				navigate(`/frontend-email-notification-react/success`, { state: { value: inputValue } });
 			}
 		}
 	}, [inputValue, isBtnClicked, isValid, navigate]);

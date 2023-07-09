@@ -11,7 +11,7 @@ export default function SuccessfulNotificationPage() {
 	const navigate = useNavigate();
 
 	const handleClickEvent = evt => {
-		navigate(`/frontend-email-notification-react`);
+		navigate(`/`);
 	};
 
 	useEffect(() => {
@@ -49,7 +49,7 @@ export default function SuccessfulNotificationPage() {
 									)}
 									<p className='card-text pe-3 text-primary'>
 										A confirmation email has been sent to{' '}
-										<a href='/frontend-email-notification-react'>{value}</a>. Please open it and
+										<a href='/'>{value}</a>. Please open it and
 										click the button inside to confirm your subscription.
 									</p>
 								</div>

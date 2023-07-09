@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frontend-email-notification-react/static/css/main.451fb1d6.css",
-    "main.js": "/frontend-email-notification-react/static/js/main.cc5c3b68.js",
+    "main.js": "/frontend-email-notification-react/static/js/main.c7c5e099.js",
     "static/js/787.fb8c7aa9.chunk.js": "/frontend-email-notification-react/static/js/787.fb8c7aa9.chunk.js",
     "static/media/Roboto-Regular.ttf": "/frontend-email-notification-react/static/media/Roboto-Regular.160d7a6ac26376e5e977.ttf",
     "static/media/Roboto-Bold.ttf": "/frontend-email-notification-react/static/media/Roboto-Bold.35eab922fdbe4b5324d4.ttf",
@@ -10,11 +10,11 @@
     "index.html": "/frontend-email-notification-react/index.html",
     "static/media/icon-list.svg": "/frontend-email-notification-react/static/media/icon-list.5e317c030bb9f11a33433484a2c590e1.svg",
     "main.451fb1d6.css.map": "/frontend-email-notification-react/static/css/main.451fb1d6.css.map",
-    "main.cc5c3b68.js.map": "/frontend-email-notification-react/static/js/main.cc5c3b68.js.map",
+    "main.c7c5e099.js.map": "/frontend-email-notification-react/static/js/main.c7c5e099.js.map",
     "787.fb8c7aa9.chunk.js.map": "/frontend-email-notification-react/static/js/787.fb8c7aa9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.451fb1d6.css",
-    "static/js/main.cc5c3b68.js"
+    "static/js/main.c7c5e099.js"
   ]
 }
